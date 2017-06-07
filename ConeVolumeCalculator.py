@@ -4,9 +4,12 @@
 # factor based on the Volume Calculator
 # Calculator.net (http://www.calculator.net/volume-calculator.html)
 
-# Define Function below
-# be sure to return an integer
+from math import pi
 
+# Define Function below
+
+def calculateConeVolume(r,h):
+    return round(pi * (r**2) * (h / 3),2)
 
 if __name__ == '__main__':
     # Call the function in here if you want to test it
